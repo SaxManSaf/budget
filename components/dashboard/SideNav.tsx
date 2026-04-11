@@ -67,7 +67,7 @@ export default function SideNav() {
           })}
         </nav>
         <div className="px-4 py-4 border-t border-gray-100 flex items-center gap-3">
-          <UserButton signOutUrl="/" />
+          <UserButton />
           <span className="text-sm text-gray-500">Account</span>
         </div>
       </aside>
@@ -79,7 +79,7 @@ export default function SideNav() {
           <span className="text-base font-semibold text-gray-900">Spendwise</span>
         </Link>
         <div className="flex items-center gap-3">
-          <UserButton signOutUrl="/" />
+          <UserButton  />
           <button onClick={() => setDrawerOpen(true)} className="p-1.5 rounded-lg hover:bg-gray-100 text-gray-600">
             <Menu size={20} />
           </button>
